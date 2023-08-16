@@ -1,0 +1,40 @@
+:root {
+    /* font-family */
+    --font-family-default: 'HankenGrotesk', sans-serif;
+    /* font-size */
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 5rem;
+    /* font-weight */
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    /* color */
+    --accent-red: 0, 100%, 67%;
+    --accent-yellow: 39, 100%, 56%;
+    --accent-green: 166, 100%, 37%;
+    --accent-blue: 234, 85%, 45%;
+
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-pale-b: hsl(221, 100%, 96%);
+    --neutral-lavender: hsl(241, 100%, 89%);
+    --neutral-dark-b: hsl(224, 30%, 27%);
+
+    --clr-neutral-white:hsl(var(--neutral-white));
+    --clr-neutral-pale-b:hsl(var(--neutral-pale-b));
+    --clr-neutral-lavender:hsl(var(--neutral-lavender));
+    /* button color */
+    --clr-neutral-dark-b:hsl(var(--neutral-dark-b)); 
+
+    --clr-accent-red: hsl(var(--accent-red));
+    --clr-accent-yellow: hsl(var(--accent-yellow));
+    --clr-accent-green: hsl(var(--accent-green));
+    --clr-accent-blue: hsl(var(--accent-blue));
+    /* gradent */
+    --gradient-background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    --gradient-circle: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
